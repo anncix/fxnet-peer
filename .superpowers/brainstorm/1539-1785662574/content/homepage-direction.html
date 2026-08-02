@@ -1,0 +1,72 @@
+<h2>首页方向选择</h2>
+<p class="subtitle">都保留地球为核心，但信息密度和操作方式不同。请选择更接近你想要的感觉。</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">A. 经典 Autopeer</div>
+        <div class="mockup-body">
+          <div class="mock-nav">Logo | Home | Auto Peer | OSPF | iBGP</div>
+          <div style="display:flex; gap:16px; margin-top:14px;">
+            <div style="flex:1.3; min-height:220px; border:1px solid #2a3550; border-radius:50%; display:flex; align-items:center; justify-content:center;">
+              Globe
+            </div>
+            <div style="flex:1;">
+              <div class="mock-content" style="min-height:70px;">Peer Request</div>
+              <div class="mock-content" style="min-height:70px; margin-top:10px;">Session Status</div>
+              <div class="mock-content" style="min-height:70px; margin-top:10px;">Config Preview</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>经典首页</h3>
+      <p>最接近 anncix 逻辑，地球是视觉中心，右侧是申请和状态面板。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">B. 地球即系统</div>
+        <div class="mockup-body">
+          <div class="mock-nav">Logo | Network Map | Sessions | Deploy</div>
+          <div style="display:flex; align-items:center; justify-content:center; min-height:220px; position:relative;">
+            <div style="width:200px; height:200px; border:1px solid #2a3550; border-radius:50%; display:flex; align-items:center; justify-content:center;">Globe</div>
+            <div style="position:absolute; left:25px; top:30px;" class="mock-button">Peer</div>
+            <div style="position:absolute; right:25px; top:60px;" class="mock-button">OSPF</div>
+            <div style="position:absolute; right:40px; bottom:30px;" class="mock-button">iBGP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>地球主导</h3>
+      <p>peer、OSPF、iBGP 都围绕地球展开，首页本身就是主控制台。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">C. 精简控制台</div>
+        <div class="mockup-body">
+          <div class="mock-nav">Logo | Apply | Sessions | Config</div>
+          <div style="display:flex; gap:12px; margin-top:14px;">
+            <div class="mock-sidebar" style="width:160px;">Quick Actions</div>
+            <div class="mock-content" style="flex:1; min-height:220px;">
+              <div style="width:140px; height:140px; border:1px solid #2a3550; border-radius:50%; margin:0 auto 12px; display:flex; align-items:center; justify-content:center;">Globe</div>
+              Timeline / Logs / Status
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>控制台优先</h3>
+      <p>更偏运维面板，地球缩成核心图标，强调流程效率和信息密度。</p>
+    </div>
+  </div>
+</div>
